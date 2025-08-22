@@ -173,11 +173,3 @@ We limit the number of requests a user can make to our API within a specific tim
 **HTTPS Encryption:** 
 * Encrypt all data in transit. 
 This ensures that all communication between the client and server is encrypted, protecting sensitive information like passwords and payment details.
-
-**Security by Feature Area**
-|**Feature Area**	            |**Security Importance**	                        |**Key Measures**|
-|User Authentication	        |Protects user accounts from unauthorized access.	|JWT tokens, hashed passwords, secure session management.|
-|User & Property Data	        |Ensures privacy and prevents data breaches.	    |Authorization, input validation, HTTPS encryption.|
-|Payment Processing	Critical.   |Protects financial data and prevents fraud.	    |HTTPS, integration with PCI-compliant payment gateways,|never storing raw payment details.|
-|Booking System	                |Prevents fraudulent bookings and ensures fairness.	|Authorization so users can only manage their own bookings.|
-|Review System	                |Maintains system integrity and prevents spam.	    |Authentication, rate limiting, input sanitization.|
