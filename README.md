@@ -173,3 +173,29 @@ We limit the number of requests a user can make to our API within a specific tim
 **HTTPS Encryption:** 
 * Encrypt all data in transit. 
 This ensures that all communication between the client and server is encrypted, protecting sensitive information like passwords and payment details.
+
+## 🚀 CI/CD Pipeline
+A CI/CD (Continuous Integration and Continuous Deployment) pipeline automates the steps involved in taking code from version control and delivering it to production. This automation is crucial for maintaining code quality, catching bugs early, and enabling frequent, reliable releases.
+
+**Importance for This Project**
+* Automated Testing:
+  Every code change triggers an automated test suite, ensuring new features don't break existing functionality.
+
+* Rapid Feedback:
+  Developers receive immediate feedback on their builds and tests, allowing them to fix issues quickly.
+
+* Consistent Deployments:
+  Automated deployments eliminate manual errors and ensure the staging and production environments are consistent and reproducible.
+
+* Improved Collaboration:
+  By automating the integration process, team members can work on features concurrently and merge code more frequently with confidence.
+
+**Tools & Implementation**
+Our pipeline will be implemented using GitHub Actions for orchestration. The workflow will typically include the following steps, containerized using Docker for environment consistency:
+
+**Code Checkout**
+* Setup & Install Dependencies
+* Run Linters & Code Quality Checks
+* Run the Test Suite
+* Build Docker Images
+* Deploy to a Staging/Production Environment
