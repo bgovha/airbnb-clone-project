@@ -19,3 +19,39 @@ This project is tailored to enhance expertise in modern software development pra
 *   **API Query Language:** GraphQL
 *   **Version Control:** GitHub (with Issues, Projects, and Actions for CI/CD)
 *   **Deployment:** (To be determined, e.g., AWS, Heroku, Docker)
+
+👥 Team Roles & Responsibilities
+This project leverages a modern, agile team structure to ensure both technical excellence and alignment with business goals.
+
+## ROLE: Product Owner (PO)	
+**KEY FOCUS: *Vision & Value***	
+**Primary Responsibilities**
+Defines the product vision, manages the backlog, and is the ultimate decision-maker for what features provide maximum business value.
+Business Analyst (BA)	Requirements & Translation	Bridges the gap between stakeholder needs and technical execution, translating abstract ideas into clear, tangible requirements for the team.
+
+## ROLE: Project Manager (PM)
+**KEY FOCUS: *Process & Delivery***
+**Primary Responsibilities**
+		Facilitates communication, maintains transparency, and ensures the project is delivered on time and within budget by managing processes and motivating the team.
+UI/UX Designer	User Experience & Design	Creates intuitive, user-friendly designs and maps user journeys to ensure the product is functional, engaging, and achieves business goals.
+
+## ROLE: Software Architect	
+**KEY FOCUS: *System Design & Standards***	
+**Primary Responsibilities**
+	Designs the high-level application architecture, selects tools and technologies, and sets coding standards to ensure the product is secure, stable, and scalable.
+Software Developer	Implementation & Problem-Solving	Writes the code for the application. Includes Front-end (client-side), Back-end (server-side, APIs, logic), and Full-stack developers.
+
+## ROLE:QA Engineer	 	
+**KEY FOCUS: *Quality & Validation***	
+**Primary Responsibilities**
+	Verifies the application meets all functional and non-functional requirements through manual testing, bug reporting, and quality analysis.
+
+## ROLE: Test Automation Engineer
+**KEY FOCUS:*Efficiency & Coverage***	
+**Primary Responsibilities**
+		Designs and writes automated test scripts to enable fast, reliable, and continuous feedback on application quality.
+
+## ROLE: DevOps Engineer	
+**KEY FOCUS: *Integration & Delivery***	
+**Primary Responsibilities**
+	Builds and maintains CI/CD pipelines to automate the software delivery process, enabling frequent and stable releases.
