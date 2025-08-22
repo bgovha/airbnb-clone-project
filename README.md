@@ -56,3 +56,79 @@ Software Developer	Implementation & Problem-Solving	Writes the code for the appl
 **KEY FOCUS: *Integration & Delivery***	
 **Primary Responsibilities**
 	Builds and maintains CI/CD pipelines to automate the software delivery process, enabling frequent and stable releases.
+
+## DATABASE DESIGN
+The database is a relational model built with PostgreSQL, designed to manage users, property listings, bookings, reviews, and payments efficiently.
+
+**Key Entities & Relationships**
+**Users**
+
+* id (Primary Key)
+
+* username
+
+* email
+
+* password_hash
+
+* phone_number
+
+**Relationships:** A User can have multiple Properties (as a Host) and multiple Bookings (as a Guest).
+
+**Properties**
+
+* id (Primary Key)
+
+* title
+
+* description
+
+* price_per_night
+
+* host_id (Foreign Key to Users)
+
+**Relationships:** A Property belongs to one User (the host). A Property can have many Bookings and many Reviews.
+
+**Bookings**
+
+* id (Primary Key)
+
+* check_in_date
+
+* check_out_date
+
+* total_price
+
+* guest_id (Foreign Key to Users)
+
+* property_id (Foreign Key to Properties)
+
+**Relationships:** A Booking belongs to one User (the guest) and one Property.
+
+**Reviews**
+
+* id (Primary Key)
+
+* rating
+
+* comment
+
+* booking_id (Foreign Key to Bookings)
+
+* guest_id (Foreign Key to Users)
+
+**Relationships:** A Review is created for one Booking, written by the User (guest) who made that booking.
+
+**Payments**
+
+* id (Primary Key)
+
+* amount
+
+* status (e.g., pending, completed, failed)
+
+* booking_id (Foreign Key to Bookings)
+
+* payment_intent_id (from Stripe/Paypal)
+
+* Relationships: A Payment is associated with one Booking.
