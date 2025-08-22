@@ -132,3 +132,21 @@ The database is a relational model built with PostgreSQL, designed to manage use
 * payment_intent_id (from Stripe/Paypal)
 
 * Relationships: A Payment is associated with one Booking.
+
+## ✨ Feature Breakdown
+The backend provides a robust set of features for a full-featured booking platform:
+
+**📚 Comprehensive APIs:** Fully documented RESTful APIs (OpenAPI standard) and a flexible GraphQL endpoint for efficient data querying.
+
+**🔐 User Authentication:** Secure user registration, login, and profile management.
+
+**🏠 Property Management:** Full CRUD operations for creating, viewing, updating, and deleting property listings.
+
+**📅 Booking System:** Create and manage reservations with check-in/check-out functionality.
+
+**💳 Payment Processing:** Integrated endpoints to securely handle booking transactions.
+
+**⭐ Review System:** Post and manage user reviews for properties.
+
+**🚀 Performance Optimizations:** Database indexing and caching strategies ensure fast response times and scalability.
+
