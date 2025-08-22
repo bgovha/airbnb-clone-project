@@ -12,7 +12,7 @@ This project is tailored to enhance expertise in modern software development pra
 *   **Plan & Document Effectively:** Strengthen the ability to document and plan complex software projects from conception to deployment.
 *   **Integrate Modern Technologies:** Develop a strong understanding of integrating Django, MySQL, and GraphQL into a unified and efficient development ecosystem.
 
-## 🛠️ Tech Stack
+## 🛠️ Technology Stack
 
 *   **Backend Framework:** Django / Django REST Framework
 *   **Database:** MySQL
@@ -20,7 +20,8 @@ This project is tailored to enhance expertise in modern software development pra
 *   **Version Control:** GitHub (with Issues, Projects, and Actions for CI/CD)
 *   **Deployment:** (To be determined, e.g., AWS, Heroku, Docker)
 
-👥 Team Roles & Responsibilities
+## 👥Team Roles & Responsibilities
+
 This project leverages a modern, agile team structure to ensure both technical excellence and alignment with business goals.
 
 ## ROLE: Product Owner (PO)	
