@@ -57,7 +57,7 @@ Software Developer	Implementation & Problem-Solving	Writes the code for the appl
 **Primary Responsibilities**
 	Builds and maintains CI/CD pipelines to automate the software delivery process, enabling frequent and stable releases.
 
-## DATABASE DESIGN
+## Database Design
 The database is a relational model built with PostgreSQL, designed to manage users, property listings, bookings, reviews, and payments efficiently.
 
 **Key Entities & Relationships**
