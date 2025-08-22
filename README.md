@@ -150,3 +150,34 @@ The backend provides a robust set of features for a full-featured booking platfo
 
 **🚀 Performance Optimizations:** Database indexing and caching strategies ensure fast response times and scalability.
 
+🔒 API Security
+Securing our APIs is paramount to protecting user data, ensuring privacy, and maintaining the integrity of our platform. We implement a multi-layered security approach.
+
+## Key Security Measures
+**Authentication (JWT Tokens):** 
+* Verify user identity. 
+Users must log in to receive a secure token, which must be included in subsequent requests to access protected endpoints.
+
+**Authorization (Role-Based Access Control):** 
+* Control user permissions. 
+Authenticated users are only allowed to perform actions specific to their role (e.g., a user can edit their own profile but not another user's).
+
+**Data Validation & Sanitization:** 
+* Prevent injection attacks. 
+All input data is rigorously validated and sanitized on the server-side to protect against SQL injection, XSS, and other common vulnerabilities.
+
+**Rate Limiting:** 
+* Protect against abuse and Denial-of-Service (DoS) attacks. 
+We limit the number of requests a user can make to our API within a specific timeframe.
+
+**HTTPS Encryption:** 
+* Encrypt all data in transit. 
+This ensures that all communication between the client and server is encrypted, protecting sensitive information like passwords and payment details.
+
+**Security by Feature Area**
+**Feature Area**	            **Security Importance**	                            **Key Measures**
+User Authentication	            Protects user accounts from unauthorized access.	JWT tokens, hashed passwords, secure session management.
+User & Property Data	        Ensures privacy and prevents data breaches.	        Authorization, input validation, HTTPS encryption.
+Payment Processing	Critical.   Protects financial data and prevents fraud.	        HTTPS, integration with PCI-compliant payment gateways, never storing raw payment details.
+Booking System	                Prevents fraudulent bookings and ensures fairness.	Authorization so users can only manage their own bookings.
+Review System	                Maintains system integrity and prevents spam.	    Authentication, rate limiting, input sanitization.
